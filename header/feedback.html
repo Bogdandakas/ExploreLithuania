@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Three day option</title>
+
+    <!-- CSS  -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Patua+One" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link href="../css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <link href="../css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+</head>
+
+<body class="default-coloring">
+    <header>
+        <nav class="white" role="navigation">
+            <div class="nav-wrapper container">
+                <a id="logo-container" href="../index.html" class="brand-logo center" style="font-family: Lobster">Explore Lithuania</a>
+            </div>
+        </nav>
+
+        <nav class="white" role="navigation">
+            <div class="nav-wrapper container">
+                <ul class="brand-logo center">
+                    <li><a class="btn waves-ripple waves-light center" id="header-links" href="../header/about_us.html">About Us</a></li>
+                    <li><a class="btn waves-ripple waves-light center" id="header-links" href="../header/faq.html">Faq</a></li>
+                    <li><a class="btn waves-ripple waves-light center" id="header-links" href="mailto:augisbojarin@gmail.com">Contact Us</a></li>
+                    <li><a class="btn waves-ripple waves-light center" id="header-links" href="../header/feedback.html">Feedback</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Feedback form -->
+    <div class="container">
+        <div class="section">
+
+            <div class="row">
+                <div class="col s12 center">
+                    <h3><i class="mdi-content-send brown-text"></i></h3>
+                    <h4 class="header light header-font-patua" id="Bottom">Have some feedback?</h4>
+                    <h4 class="header light header-font-patua">Tell us!</h4>
+                    <div class="container">
+                        <form action="/action_page.php" method="post">
+
+                            <label for="fname">First Name</label>
+                            <input type="text" id="fname" name="firstname">
+
+                            <label for="lname">Last Name</label>
+                            <input type="text" id="lname" name="lastname">
+                            <label for="subject">Subject</label>
+                            <textarea id="subject" name="subject" style="height:200px"></textarea>
+
+                            <input type="submit" value="Submit" class="btn">
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- -->
+
+    <!-- Quiz -->
+    <p class="question">1. When Horse museum of Anyksciai was created?</p>
+    <ul class="answers">
+        <input type="radio" name="klausimas" value="a" id="q1a"><label for="q1a">1977</label><br/>
+        <input type="radio" name="q1" value="b" id="q1b"><label for="q1b">1877 </label><br/>
+        <input type="radio" name="q1" value="c" id="q1c"><label for="q1c">1555</label><br/>
+        <input type="radio" name="q1" value="d" id="q1d"><label for="q1d">1995</label><br/>
+    </ul>
+
+    <div id="results">
+        Show me the answers!
+    </div>
+
+    <div id="category1">
+        <p><strong>Question 1:</strong> The correct answer is the <strong>Answer 1</strong>.</p>
+    </div>
+    <!-- -->
+
+
+
+    <footer class="page-footer grey darken-1">
+        <div class="container">
+            <div class="row">
+
+                <div class="col l6 s12">
+                    <h5 class="white-text">Contacts</h5>
+                    <ul>
+                        <li><a class="white-text">Phone number: +37023456789</a></li>
+                        <li><a class="white-text">E-mail: explore.lithuania@gmail.com</a></li>
+                        <li><a class="white-text">Ulonų street 5, Vilnius, Lithuania</a></li>
+                    </ul>
+                </div>
+                <div class="col l6 s12">
+                    <h5 class="white-text">Connect</h5>
+                    <ul class="footer-blocks">
+                        <li>
+                            <a href="https://www.facebook.com/onLithuania/" class="fa fa-facebook"></a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/welovelithuania" class="fa fa-twitter"></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                <p class="black-text darken-5">&copy;2017 Vilnius Coding School</p>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="js/materialize.js"></script>
+    <script src="js/init.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA4WxDqxltNiAbO8NQzbwRq6I5OsoSxjKA&callback=myMap"></script>
+    <!-- Quiz -->
+    <script scr="../js/quiz.js"></script>
+    <script scr="../js/quiz_foranswers.js"></script>
+</body>

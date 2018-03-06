@@ -1,0 +1,336 @@
+/* Custom Stylesheet */
+
+
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+nav ul a,
+nav .brand-logo {
+    color: #444;
+}
+
+p {
+    line-height: 2rem;
+}
+
+.button-collapse {
+    color: #26a69a;
+}
+
+.parallax-container {
+    min-height: 380px;
+    line-height: 0;
+    height: auto;
+    color: rgba(255, 255, 255, .9);
+}
+
+.parallax-container .section {
+    width: 100%;
+}
+
+@media only screen and (max-width: 992px) {
+    .parallax-container .section {
+        position: absolute;
+        top: 40%;
+    }
+    #index-banner .section {
+        top: 10%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #index-banner .section {
+        top: 0;
+    }
+}
+
+.icon-block {
+    padding: 0 15px;
+}
+
+.icon-block .material-icons {
+    font-size: inherit;
+}
+
+footer.page-footer {
+    margin: 0;
+}
+
+.header-font-pac {
+    font-family: 'Pacifico', cursive;
+    letter-spacing: 3px;
+    font-size: 28px;
+}
+
+.header-font-patua {
+    font-family: 'Patua One', cursive;
+    letter-spacing: 3px;
+    font-size: 28px;
+}
+
+.paragraphs {
+    font-family: 'Patua One';
+    font-size: 20px;
+}
+
+.default-coloring {
+    /*background-color: rgb(216, 216, 216);*/
+    background-color: rgba(128, 175, 161, 0.3);
+}
+
+
+/* Style all font awesome icons */
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+/* Add a hover effect if you want */
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+
+/* Set a specific color for each brand */
+
+
+/* Facebook */
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+
+/* Twitter */
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+#header-links {
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    vertical-align: top;
+}
+
+
+/* Text CSS */
+
+.faq-questions {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    letter-spacing: 3px;
+}
+
+.faq-answers {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.day-schedule-text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.about-us-p {
+    font-family: Roboto Slab;
+    font-size: 26px;
+}
+
+.footer-blocks {
+    display: -webkit-box;
+}
+
+#title-font {
+    font-size: 24px;
+}
+
+
+/* SLIDE SHOW IMAGE CSS */
+
+.img-container {
+    width: 80%;
+    height: 65%;
+    background: #444;
+    margin: 0 auto;
+}
+
+#myImage {
+    zoom: 0.7;
+    display: block;
+    margin: auto;
+    height: 130%;
+    max-height: 150%;
+    width: 90%;
+    max-width: 100%;
+}
+
+.imgFill {
+    min-height: 100%;
+    min-width: 100%;
+    width: auto;
+    height: auto;
+    max-width: none;
+    max-height: none;
+    display: block;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.title-slider-color {
+    color: rgb(134, 130, 130);
+}
+
+
+/*  For quiz quiz quiz quiz quiz quiz quiz quiz quiz quiz quiz quiz quiz quiz quiz quiz quiz quiz quiz*/
+
+.answers li {
+    list-style: upper-alpha;
+}
+
+label {
+    margin-left: 0.5em;
+    cursor: pointer;
+}
+
+#results {
+    background: #dddada;
+    color: 000000;
+    padding: 3px;
+    text-align: center;
+    width: 200px;
+    cursor: pointer;
+    border: 1px solid gray;
+}
+
+#results:hover {
+    background: #3d91b8;
+    color: #ffffff;
+    padding: 3px;
+    text-align: center;
+    width: 200px;
+    cursor: pointer;
+    border: 1px solid gray;
+}
+
+#categorylist {
+    margin-top: 6px;
+    display: none;
+}
+
+#category1,
+#category2,
+#category3,
+#category4,
+#category5,
+#category6,
+#category7,
+#category8,
+#category9,
+#category10,
+#category11 {
+    display: none;
+}
+
+#closing {
+    display: none;
+    font-style: italic;
+}
+
+
+/* Nav */
+
+nav .brand-logo.center {
+    min-width: 26rem;
+}
+
+
+/* Popup container */
+
+.popup {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+
+/* The actual popup (appears on top) */
+
+.popup .popuptext {
+    visibility: hidden;
+    width: 160px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 25px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -80px;
+}
+
+
+/* Popup arrow */
+
+.popup .popuptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+
+/* Toggle this class when clicking on the popup container (hide and show the popup) */
+
+.popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s
+}
+
+
+/* Add animation (fade in the popup) */
+
+@-webkit-keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+/* Trying buttons */

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Frequent Questions</title>
+
+    <!-- CSS  -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Patua+One" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link href="../css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <link href="../css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+</head>
+
+<body class="default-coloring">
+    <header>
+        <nav class="white" role="navigation">
+            <div class="nav-wrapper container">
+                <a id="logo-container" href="../index.html" class="brand-logo center" style="font-family: Lobster">Explore Lithuania</a>
+            </div>
+        </nav>
+
+        <nav class="white" role="navigation">
+            <div class="nav-wrapper container">
+                <ul class="brand-logo center">
+                    <li><a class="btn waves-ripple waves-light center" id="header-links" href="about_us.html">About Us</a></li>
+                    <li><a class="btn waves-ripple waves-light center" id="header-links" href="faq.html">Faq</a></li>
+                    <li><a class="btn waves-ripple waves-light center" id="header-links" href="mailto:augisbojarin@gmail.com">Contact Us</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+
+    <div>
+        <div class="row">
+            <div class="col s12 center">
+                <h4 class="header light header-font-patua">Frequently Asked Questions:</h4>
+
+                <p class="faq-questions">Q: What is the official currency of Lithuania?</p>
+                <p class="faq-answers">A: Official currency in Lithuania is Euro (&euro;).</p>
+
+                <p class="faq-questions">Q: Do I need a passport or ID is enough to travel in Lithuania?</p>
+                <p class="faq-answers">A: ID is enough if you are resident of another EU country.</p>
+
+                <p class="faq-questions">Q: How are the trips organized?</p>
+                <p class="faq-answers">A: All our trips are organized by private buses.</p>
+
+                <p class="faq-questions">Q: Are bus tickets prices included in trip price?</p>
+                <p class="faq-answers">A: Yes, bus tickets are included.</p>
+
+                <p class="faq-questions">Q: What about the meals?</p>
+                <p class="faq-answers">A: Food options are included. Check out trip options to find out more.</p>
+
+                <p class="faq-questions">Q: Where will I spend the nights during 3 days trip?</p>
+                <p class="faq-answers">A: During our 3 day trip hotels are booked for all our customers.</p>
+
+                <p class="faq-questions">Q: What items should I bring with me?</p>
+                <p class="faq-answers">A: Bottled water, camera and good mood are highly suggested!</p>
+
+                <p class="faq-questions">Q:Where is the meeting point at the beginning of excursions?</p>
+
+                <!-- Map -->
+                <p class="faq-answers">Excursions start at 6:00 at Vilnius Cathedral square ("Vilniaus Katedra" on the map). You will see our tour guide there.</p>
+                <div id="googleMap" style="width:100%;height:300px;">
+                    <script>
+                        function myMap() {
+                            var mapProp = {
+                                center: new google.maps.LatLng(54.685895, 25.287723),
+                                zoom: 20,
+                            };
+                            var map = new google.maps.Map(document.getElementById("googleMap"), mapProp);
+                        }
+                    </script>
+                </div>
+                <!-- -->
+                <p class="faq-answers">If You're late or got lost, you can always call our tour guide: +370 66 465 669</p>
+            </div>
+        </div>
+    </div>
+
+
+    <footer class="page-footer grey darken-1">
+        <div class="container">
+            <div class="row">
+
+                <div class="col l6 s12">
+                    <h5 class="white-text">Contacts</h5>
+                    <ul>
+                        <li><a class="white-text">Phone number: +37023456789</a></li>
+                        <li><a class="white-text">E-mail: explore.lithuania@gmail.com</a></li>
+                        <li><a class="white-text">Ulonų street 5, Vilnius, Lithuania</a></li>
+                    </ul>
+                </div>
+                <div class="col l6 s12">
+                    <h5 class="white-text">Connect</h5>
+                    <ul class="footer-blocks">
+                        <li>
+                            <a href="https://www.facebook.com/onLithuania/" class="fa fa-facebook"></a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/welovelithuania" class="fa fa-twitter"></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                <p class="black-text darken-5">&copy;2017 Vilnius Coding School</p>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--  Scripts-->
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="js/materialize.js"></script>
+    <script src="js/init.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA4WxDqxltNiAbO8NQzbwRq6I5OsoSxjKA&callback=myMap"></script>
+    <!-- Google maps -->
+    <script scr="quiz.js"></script>
+    <script scr="quiz_foranswers.js"></script>
+
+</body>

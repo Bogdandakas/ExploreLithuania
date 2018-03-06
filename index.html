@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Explore Lithuania</title>
+
+    <!-- CSS  -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Patua+One" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+</head>
+
+<body class="default-coloring">
+    <header>
+        <nav class="white" role="navigation">
+            <div class="nav-wrapper container">
+                <a id="logo-container" href="index.html" class="brand-logo center" style="font-family: Lobster">Explore Lithuania</a>
+            </div>
+        </nav>
+
+        <nav class="white" role="navigation">
+            <div class="nav-wrapper container">
+                <ul class="brand-logo center">
+                    <li><a class="btn waves-ripple waves-light center" id="header-links" href="header/about_us.html">About Us</a></li>
+                    <li><a class="btn waves-ripple waves-light center" id="header-links" href="header/faq.html">Faq</a></li>
+                    <li><a class="btn waves-ripple waves-light center" id="header-links" href="#Bottom">Contact Us</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <div id="index-banner" class="parallax-container">
+        <div class="parallax"><img src="images/index/lithuania1.jpg" alt="Unsplashed background img 1"></div>
+    </div>
+
+
+
+    <div class="container">
+        <div class="section">
+
+            <!--   Icon Section   -->
+
+            <div class="row center">
+                <h5 class="header light header-font-patua"><strong>How would you like to enjoy Lithuania?</strong></h5>
+                <h5 class="header light header-font-patua"><strong>We offer two exploration options:</strong></h5>
+            </div>
+            <div class="row">
+                <div class="carousel carousel-slider center img-container-title" data-indicators="true">
+
+                    <div class="carousel-item title-slider-color black-text" href="#one!">
+                        <div class="carousel-fixed-item center">
+                            <a class="btn waves-ripple waves-light centre" href="trips/oneday.html">More info!</a>
+                        </div>
+                        <h2 class="header light header-font-patua" id="title-font">One day experience 150&euro;</h2>
+                        <p class="header light header-font-patua" id="title-font">Includes excursions to Vilnius, Anyksciai, Trakai.</p>
+                        <img src="images/index/onedayexp.jpg">
+                    </div>
+                    <div class="carousel-item title-slider-color black-text" href="#two!">
+                        <div class="carousel-fixed-item center">
+                            <a class="btn waves-ripple waves-light centre" href="trips/threeday.html">More info!</a>
+                        </div>
+                        <h2 class="header light header-font-patua" id="title-font">Three day experience 450&euro;</h2>
+                        <p class="header light header-font-patua" id="title-font">Includes excursions to Vilnius, Trakai, Palanga, Klaipeda and Curonian Spit.</p>
+                        <img src="images/index/threedayexp.jpg">
+                    </div>
+                </div>
+
+            </div>
+
+
+
+
+        </div>
+    </div>
+
+
+    <div class="parallax-container valign-wrapper">
+
+        <div class="parallax"><img src="images/index/lithuania2.jpg" alt="Unsplashed background img 2"></div>
+    </div>
+
+    <div class="container">
+        <div class="section">
+
+            <div class="row">
+                <div class="col s12 center">
+                    <h3><i class="mdi-content-send brown-text"></i></h3>
+                    <h4 class="header light header-font-patua" id="Bottom">Interested in a trip?</h4>
+                    <h4 class="header light header-font-patua">Contact us!</h4>
+                    <div class="container">
+                        <form action="/action_page.php" method="post">
+
+                            <label for="fname">First Name</label>
+                            <input type="text" id="fname" name="firstname">
+
+                            <label for="lname">Last Name</label>
+                            <input type="text" id="lname" name="lastname">
+                            <label for="subject">Subject</label>
+                            <textarea id="subject" name="subject" style="height:200px"></textarea>
+
+                            <div class="popup" class="btn" onclick="myFunction()">Submit!
+                                <span class="popuptext" id="myPopup">Message received!</span>
+                            </div>
+
+                            <script>
+                                // When the user clicks on <div>, open the popup
+                                function myFunction() {
+                                    var popup = document.getElementById("myPopup");
+                                    popup.classList.toggle("show");
+                                }
+                            </script>
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="parallax-container valign-wrapper">
+        <div class="section no-pad-bot">
+            <!--<div class="container">
+                <div class="row center">
+                    <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+                </div>
+            </div>-->
+        </div>
+        <div class="parallax"><img src="images/index/lithuania3.jpg" alt="Unsplashed background img 3"></div>
+    </div>
+
+    <footer class="page-footer grey darken-1">
+        <div class="container">
+            <div class="row">
+
+                <div class="col l6 s12">
+                    <h5 class="white-text">Contacts</h5>
+                    <ul>
+                        <li><a class="white-text">Phone number: +37023456789</a></li>
+                        <li><a class="white-text">E-mail: explore.lithuania@gmail.com</a></li>
+                        <li><a class="white-text">Ulonų street 5, Vilnius, Lithuania</a></li>
+                    </ul>
+                </div>
+                <div class="col l6 s12">
+                    <h5 class="white-text">Connect</h5>
+                    <ul class="footer-blocks">
+                        <li>
+                            <a href="https://www.facebook.com/onLithuania/" class="fa fa-facebook"></a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/welovelithuania" class="fa fa-twitter"></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                <p class="black-text darken-5">&copy;2017 Vilnius Coding School</p>
+            </div>
+        </div>
+    </footer>
+
+
+    <!--  Scripts-->
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="js/materialize.js"></script>
+    <script src="js/init.js"></script>
+    <script src="trips/carousel.js"></script>
+
+</body>
+
+</html>
