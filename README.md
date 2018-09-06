@@ -1,6 +1,6 @@
-Komanda nr. 1
+Team nr. 1
 
-Komandos nariai:
+Members:
 
 Albertas
 
