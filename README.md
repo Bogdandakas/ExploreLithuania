@@ -1,13 +1,3 @@
-Team nr. 1
+Team members: Albertas; Augustinas; Aurimas; Bogdan; Mindaugas
 
-Members:
-
-Albertas
-
-Augustinas
-
-Aurimas
-
-Bogdan
-
-Mindaugas
+Welcome in Lithuania.
